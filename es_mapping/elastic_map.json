@@ -1,0 +1,35 @@
+{
+  "mappings": {
+    "{koleksi}": {
+      "properties": {
+
+        "category": {
+          "type": "text",
+          "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+        },
+        "subcat": {
+          "type": "text",
+          "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+        },
+        "title": {
+          "type": "text",
+          "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+        }
+
+
+      }
+    }
+  }
+}
